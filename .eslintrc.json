@@ -1,0 +1,12 @@
+{
+  "parser": "babel-eslint",
+  "rules": {
+    "no-console": "warn" //warn if there's a console.log statement in our javascript files
+  },
+  //"extends": ["airbnb-base"], //add this pre-written rules to our rules
+  "parserOptions": {
+    "ecmaFeatures": {
+      "jsx": true
+    }
+  }
+}
